@@ -21,11 +21,13 @@ dirs.forEach(dirent => {
       if (file.match(/\.(jpg|jpeg|png|mp4|webm)$/i)) {
         // Create a beautiful SEO-friendly caption from the tag and filename
         const prettyName = file
-          .replace(/\.[^/.]+$/, "")
-          .replace(/^sk-nursery-/i, "")
-          .replace(/[-_]/g, " ");
+          .replace(/\.[^/.]+$/, "")         // strip extension
+          .replace(/^sk-nursery-/i, "")     // strip prefix
+          .replace(/-\d+(-\d+)?$/, "")      // strip trailing number suffixes like -1-1 or -2
+          .replace(/[-_]/g, " ")            // dashes/underscores → spaces
+          .replace(/\b\w/g, c => c.toUpperCase()); // Title Case
           
-        const alt = `SK Nursery ${tag} - ${prettyName}`;
+        const alt = `SK Nursery ${tag} – ${prettyName}`;
         
         items.push({
           src: `images/${tag}/${file}`,

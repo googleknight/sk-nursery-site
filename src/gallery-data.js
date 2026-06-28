@@ -2,167 +2,167 @@
 window.GALLERY_ITEMS = [
   {
     "src": "images/Commercial Landscaping/sk-nursery-bombay-brassere.jpg",
-    "alt": "SK Nursery Commercial Landscaping - bombay brassere",
+    "alt": "SK Nursery Commercial Landscaping – Bombay Brassere",
     "tag": "Commercial Landscaping"
   },
   {
     "src": "images/Commercial Landscaping/sk-nursery-cafe-noir-1-1.jpg",
-    "alt": "SK Nursery Commercial Landscaping - cafe noir 1 1",
+    "alt": "SK Nursery Commercial Landscaping – Cafe Noir",
     "tag": "Commercial Landscaping"
   },
   {
     "src": "images/Commercial Landscaping/sk-nursery-cafe-noir-1-2.jpg",
-    "alt": "SK Nursery Commercial Landscaping - cafe noir 1 2",
+    "alt": "SK Nursery Commercial Landscaping – Cafe Noir",
     "tag": "Commercial Landscaping"
   },
   {
     "src": "images/Commercial Landscaping/sk-nursery-nasi-and-mee-1-1.jpg",
-    "alt": "SK Nursery Commercial Landscaping - nasi and mee 1 1",
+    "alt": "SK Nursery Commercial Landscaping – Nasi And Mee",
     "tag": "Commercial Landscaping"
   },
   {
     "src": "images/Commercial Landscaping/sk-nursery-nasi-and-mee-1-2.jpg",
-    "alt": "SK Nursery Commercial Landscaping - nasi and mee 1 2",
+    "alt": "SK Nursery Commercial Landscaping – Nasi And Mee",
     "tag": "Commercial Landscaping"
   },
   {
     "src": "images/Commercial Landscaping/sk-nursery-nasi-and-mee-2-1.jpg",
-    "alt": "SK Nursery Commercial Landscaping - nasi and mee 2 1",
+    "alt": "SK Nursery Commercial Landscaping – Nasi And Mee",
     "tag": "Commercial Landscaping"
   },
   {
     "src": "images/Commercial Landscaping/sk-nursery-nasi-and-mee-2-2.jpg",
-    "alt": "SK Nursery Commercial Landscaping - nasi and mee 2 2",
+    "alt": "SK Nursery Commercial Landscaping – Nasi And Mee",
     "tag": "Commercial Landscaping"
   },
   {
     "src": "images/Commercial Landscaping/sk-nursery-nasi-and-mee-2-3.jpg",
-    "alt": "SK Nursery Commercial Landscaping - nasi and mee 2 3",
+    "alt": "SK Nursery Commercial Landscaping – Nasi And Mee",
     "tag": "Commercial Landscaping"
   },
   {
     "src": "images/Commercial Landscaping/sk-nursery-office-entrance-greenery.jpg",
-    "alt": "SK Nursery Commercial Landscaping - office entrance greenery",
+    "alt": "SK Nursery Commercial Landscaping – Office Entrance Greenery",
     "tag": "Commercial Landscaping"
   },
   {
     "src": "images/Commercial Landscaping/sk-nursery-topic-hotel-1.jpg",
-    "alt": "SK Nursery Commercial Landscaping - topic hotel 1",
+    "alt": "SK Nursery Commercial Landscaping – Topic Hotel",
     "tag": "Commercial Landscaping"
   },
   {
     "src": "images/Commercial Landscaping/sk-nursery-topic-hotel-2.jpg",
-    "alt": "SK Nursery Commercial Landscaping - topic hotel 2",
+    "alt": "SK Nursery Commercial Landscaping – Topic Hotel",
     "tag": "Commercial Landscaping"
   },
   {
     "src": "images/Garden Design/sk-nursery-interior-vertical-green-wall.jpg",
-    "alt": "SK Nursery Garden Design - interior vertical green wall",
+    "alt": "SK Nursery Garden Design – Interior Vertical Green Wall",
     "tag": "Garden Design"
   },
   {
     "src": "images/Garden Design/sk-nursery-modern-rooftop-terrace.png",
-    "alt": "SK Nursery Garden Design - modern rooftop terrace",
+    "alt": "SK Nursery Garden Design – Modern Rooftop Terrace",
     "tag": "Garden Design"
   },
   {
     "src": "images/Garden Design/sk-nursery-radha-krishna-fountain.jpg",
-    "alt": "SK Nursery Garden Design - radha krishna fountain",
+    "alt": "SK Nursery Garden Design – Radha Krishna Fountain",
     "tag": "Garden Design"
   },
   {
     "src": "images/Garden Design/sk-nursery-rooftop-garden-night-seating.jpg",
-    "alt": "SK Nursery Garden Design - rooftop garden night seating",
+    "alt": "SK Nursery Garden Design – Rooftop Garden Night Seating",
     "tag": "Garden Design"
   },
   {
     "src": "images/Garden Landscaping/sk-nursery-backyard-garden-makeover.jpg",
-    "alt": "SK Nursery Garden Landscaping - backyard garden makeover",
+    "alt": "SK Nursery Garden Landscaping – Backyard Garden Makeover",
     "tag": "Garden Landscaping"
   },
   {
     "src": "images/Garden Landscaping/sk-nursery-balcony-brick-wall.jpg",
-    "alt": "SK Nursery Garden Landscaping - balcony brick wall",
+    "alt": "SK Nursery Garden Landscaping – Balcony Brick Wall",
     "tag": "Garden Landscaping"
   },
   {
     "src": "images/Garden Landscaping/sk-nursery-garden-walkthrough-video.mp4",
-    "alt": "SK Nursery Garden Landscaping - garden walkthrough video",
+    "alt": "SK Nursery Garden Landscaping – Garden Walkthrough Video",
     "tag": "Garden Landscaping"
   },
   {
     "src": "images/Garden Landscaping/sk-nursery-pergola-creeper-pathway.jpg",
-    "alt": "SK Nursery Garden Landscaping - pergola creeper pathway",
+    "alt": "SK Nursery Garden Landscaping – Pergola Creeper Pathway",
     "tag": "Garden Landscaping"
   },
   {
     "src": "images/Garden Landscaping/sk-nursery-rooftop-flower-bed-apartments.jpg",
-    "alt": "SK Nursery Garden Landscaping - rooftop flower bed apartments",
+    "alt": "SK Nursery Garden Landscaping – Rooftop Flower Bed Apartments",
     "tag": "Garden Landscaping"
   },
   {
     "src": "images/Garden Landscaping/sk-nursery-sloped-flower-bed.jpg",
-    "alt": "SK Nursery Garden Landscaping - sloped flower bed",
+    "alt": "SK Nursery Garden Landscaping – Sloped Flower Bed",
     "tag": "Garden Landscaping"
   },
   {
     "src": "images/Garden Landscaping/sk-nursery-terrace-garden-swimming-pool.jpg",
-    "alt": "SK Nursery Garden Landscaping - terrace garden swimming pool",
+    "alt": "SK Nursery Garden Landscaping – Terrace Garden Swimming Pool",
     "tag": "Garden Landscaping"
   },
   {
     "src": "images/Landscape Maintenance/sk-nursery-balcony-decking-flowers.jpg",
-    "alt": "SK Nursery Landscape Maintenance - balcony decking flowers",
+    "alt": "SK Nursery Landscape Maintenance – Balcony Decking Flowers",
     "tag": "Landscape Maintenance"
   },
   {
     "src": "images/Landscape Maintenance/sk-nursery-balcony-leisure-seating.jpg",
-    "alt": "SK Nursery Landscape Maintenance - balcony leisure seating",
+    "alt": "SK Nursery Landscape Maintenance – Balcony Leisure Seating",
     "tag": "Landscape Maintenance"
   },
   {
     "src": "images/Landscape Maintenance/sk-nursery-balcony-potted-plant.jpg",
-    "alt": "SK Nursery Landscape Maintenance - balcony potted plant",
+    "alt": "SK Nursery Landscape Maintenance – Balcony Potted Plant",
     "tag": "Landscape Maintenance"
   },
   {
     "src": "images/Landscape Maintenance/sk-nursery-rooftop-grow-bags.jpg",
-    "alt": "SK Nursery Landscape Maintenance - rooftop grow bags",
+    "alt": "SK Nursery Landscape Maintenance – Rooftop Grow Bags",
     "tag": "Landscape Maintenance"
   },
   {
     "src": "images/Lawn Installation/sk-nursery-balcony-artificial-turf.jpg",
-    "alt": "SK Nursery Lawn Installation - balcony artificial turf",
+    "alt": "SK Nursery Lawn Installation – Balcony Artificial Turf",
     "tag": "Lawn Installation"
   },
   {
     "src": "images/Lawn Installation/sk-nursery-balcony-grass-night-lights.jpg",
-    "alt": "SK Nursery Lawn Installation - balcony grass night lights",
+    "alt": "SK Nursery Lawn Installation – Balcony Grass Night Lights",
     "tag": "Lawn Installation"
   },
   {
     "src": "images/Lawn Installation/sk-nursery-lawn-turf-hedges-boundary.png",
-    "alt": "SK Nursery Lawn Installation - lawn turf hedges boundary",
+    "alt": "SK Nursery Lawn Installation – Lawn Turf Hedges Boundary",
     "tag": "Lawn Installation"
   },
   {
     "src": "images/Rock & Stone Landscaping/sk-nursery-buddha-water-fountain.jpg",
-    "alt": "SK Nursery Rock & Stone Landscaping - buddha water fountain",
+    "alt": "SK Nursery Rock & Stone Landscaping – Buddha Water Fountain",
     "tag": "Rock & Stone Landscaping"
   },
   {
     "src": "images/Rock & Stone Landscaping/sk-nursery-gravel-pathway-garden-lighting.jpg",
-    "alt": "SK Nursery Rock & Stone Landscaping - gravel pathway garden lighting",
+    "alt": "SK Nursery Rock & Stone Landscaping – Gravel Pathway Garden Lighting",
     "tag": "Rock & Stone Landscaping"
   },
   {
     "src": "images/Rock & Stone Landscaping/sk-nursery-stepping-stones-artificial-lawn.jpg",
-    "alt": "SK Nursery Rock & Stone Landscaping - stepping stones artificial lawn",
+    "alt": "SK Nursery Rock & Stone Landscaping – Stepping Stones Artificial Lawn",
     "tag": "Rock & Stone Landscaping"
   },
   {
     "src": "images/Tree Plantation/sk-nursery-boundary-cypress-trees.jpg",
-    "alt": "SK Nursery Tree Plantation - boundary cypress trees",
+    "alt": "SK Nursery Tree Plantation – Boundary Cypress Trees",
     "tag": "Tree Plantation"
   }
 ];
