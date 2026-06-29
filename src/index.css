@@ -1,0 +1,115 @@
+/* ===== SK Nursery — React Global Styles ===== */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:wght@600;700&display=swap');
+
+:root {
+  --font-body: 'DM Sans', system-ui, sans-serif;
+  --font-display: 'Fraunces', Georgia, serif;
+
+  --clr-bg: #fbfdf7;
+  --clr-fg: #0e2b18;
+  --clr-card: #ffffff;
+  --clr-primary: #055428;
+  --clr-primary-fg: #f7faf2;
+  --clr-secondary: #43c251;
+  --clr-secondary-fg: #022710;
+  --clr-muted: #eaf1e4;
+  --clr-muted-fg: #475f4d;
+  --clr-border: #d7e1d5;
+  --clr-beige: #f3ead9;
+  --clr-gold: #e3ad4b;
+  --clr-gold-fg: #0e2b18;
+  --clr-whatsapp: #25d366;
+  --clr-ring: #43c251;
+
+  --grad-hero: linear-gradient(180deg, rgba(1,28,10,.15), rgba(0,18,4,.78));
+  --grad-primary: linear-gradient(135deg, #055428, #05893e);
+  --grad-leaf: linear-gradient(135deg, #43c251, #00a062);
+
+  --shadow-soft: 0 8px 30px -12px rgba(5,84,40,.35);
+  --shadow-card: 0 14px 40px -18px rgba(5,84,40,.45);
+
+  --radius: 0.75rem;
+  --max-w: 80rem;
+  --transition: 0.25s cubic-bezier(.4,0,.2,1);
+}
+
+*,*::before,*::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+body {
+  font-family: var(--font-body);
+  color: var(--clr-fg);
+  background: var(--clr-bg);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+img, svg, video { display: block; max-width: 100%; height: auto; }
+a { color: inherit; text-decoration: none; }
+button { font: inherit; cursor: pointer; border: none; background: none; }
+ul, ol { list-style: none; }
+h1,h2,h3,h4 { font-family: var(--font-display); font-weight: 600; line-height: 1.15; }
+select, input { font: inherit; }
+
+/* Utilities */
+.container { max-width: var(--max-w); margin-inline: auto; padding-inline: 1rem; }
+.section { padding-block: 5rem; }
+.section-header { max-width: 42rem; margin-inline: auto; text-align: center; margin-bottom: 3rem; }
+.section-header .label {
+  font-size: 0.8rem; font-weight: 600; text-transform: uppercase;
+  letter-spacing: 0.1em; color: var(--clr-secondary); margin-bottom: 0.5rem;
+}
+.section-header h2 { font-size: clamp(1.75rem, 4vw, 2.25rem); color: var(--clr-primary); }
+.section-header p { color: var(--clr-muted-fg); margin-top: 0.75rem; }
+
+/* Buttons */
+.btn {
+  display: inline-flex; align-items: center; justify-content: center;
+  gap: 0.5rem; font-weight: 600; border-radius: calc(var(--radius) + 4px);
+  padding: 0.9rem 2.25rem; font-size: 1rem; white-space: nowrap;
+  transition: transform var(--transition), filter var(--transition);
+  box-shadow: var(--shadow-soft);
+}
+.btn:hover { transform: translateY(-2px); filter: brightness(1.05); }
+.btn:active { transform: translateY(0); }
+.btn--gold { background: var(--clr-gold); color: var(--clr-gold-fg); }
+.btn--primary { background-image: var(--grad-primary); color: var(--clr-primary-fg); }
+.btn--whatsapp { background: var(--clr-whatsapp); color: #fff; }
+.btn--whatsapp-sm { background: var(--clr-whatsapp); color: #fff; border-radius: calc(var(--radius) - 2px); padding: 0.6rem 2rem; font-size: 0.875rem; }
+.btn--outline { border: 2px solid var(--clr-primary-fg); color: var(--clr-primary-fg); }
+.btn--outline:hover { background: rgba(247,250,242,.1); }
+
+/* Animation Classes */
+.reveal {
+  opacity: 0; transform: translateY(24px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.reveal.visible { opacity: 1; transform: translateY(0); }
+
+/* Shared Modal */
+.modal {
+  position: fixed; z-index: 1000; left: 0; top: 0;
+  width: 100%; height: 100%; overflow: auto; background-color: rgba(0,0,0,0.9);
+  display: flex; align-items: center; justify-content: center; flex-direction: column;
+}
+.modal__content {
+  margin: auto; display: block; max-width: 90%; max-height: 80vh;
+  object-fit: contain; border-radius: var(--radius);
+}
+.modal__close {
+  position: absolute; top: 1rem; right: 2rem; color: #fff;
+  font-size: 2.5rem; font-weight: bold; cursor: pointer; transition: color 0.2s;
+  z-index: 1001;
+}
+.modal__close:hover { color: var(--clr-gold); }
+.modal__nav {
+  position: absolute; top: 50%; transform: translateY(-50%);
+  color: #fff; font-size: 3rem; font-weight: bold; cursor: pointer;
+  padding: 1rem; user-select: none; transition: color 0.2s;
+  z-index: 1001;
+}
+.modal__nav:hover { color: var(--clr-gold); }
+.modal__nav--prev { left: 1rem; }
+.modal__nav--next { right: 1rem; }
+#modalCaption {
+  margin: 1rem auto 0; text-align: center; color: #ccc;
+  font-size: 1rem; padding: 10px 0;
+}

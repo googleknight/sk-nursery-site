@@ -1,0 +1,9 @@
+.footer { background: var(--clr-primary); color: var(--clr-primary-fg); }
+.footer__inner {
+  display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 1rem;
+  max-width: var(--max-w); margin-inline: auto; padding: 2rem 1rem;
+  font-size: 0.875rem; color: rgba(247,250,242,.7);
+}
+.footer__links { display: flex; gap: 1.5rem; }
+.footer__links a { color: var(--clr-primary-fg); font-weight: 500; transition: color var(--transition); }
+.footer__links a:hover { color: var(--clr-gold); }

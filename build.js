@@ -1,8 +1,12 @@
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
 
-const imagesDir = path.join(__dirname, 'src', 'images');
-const outputFile = path.join(__dirname, 'src', 'gallery-data.js');
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+const imagesDir = path.join(__dirname, 'public', 'images');
+const outputFile = path.join(__dirname, 'src', 'data', 'galleryData.json');
 
 const items = [];
 const tags = new Set();
@@ -30,7 +34,7 @@ dirs.forEach(dirent => {
         const alt = `SK Nursery ${tag} – ${prettyName}`;
         
         items.push({
-          src: `images/${tag}/${file}`,
+          src: `/images/${tag}/${file}`,
           alt: alt,
           tag: tag
         });
@@ -41,10 +45,7 @@ dirs.forEach(dirent => {
 
 const galleryTags = ['All', ...Array.from(tags)];
 
-const jsContent = `// Auto-generated file by build.js
-window.GALLERY_ITEMS = ${JSON.stringify(items, null, 2)};
-window.GALLERY_TAGS = ${JSON.stringify(galleryTags, null, 2)};
-`;
+const jsContent = JSON.stringify({ items, tags: galleryTags }, null, 2);
 
 fs.writeFileSync(outputFile, jsContent, 'utf-8');
-console.log('Generated src/gallery-data.js successfully.');
+console.log('Generated src/data/galleryData.json successfully.');
