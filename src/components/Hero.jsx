@@ -4,7 +4,7 @@ import './Hero.css';
 export default function Hero() {
   return (
     <section className="hero">
-      <img src="/images/hero-bg.png" alt="Premium rooftop landscape garden in Bengaluru by SK Nursery" className="hero__bg" />
+      <img src="/images/Commercial Landscaping/sk-nursery-nasi-and-mee-1-1.jpg" alt="Premium rooftop landscape garden in Bengaluru by SK Nursery" className="hero__bg" />
       <div className="hero__overlay"></div>
       <div className="hero__content">
         <h1>We Turn Empty Spaces Into<br/><span className="hero__highlight">Beautiful Gardens</span></h1>
